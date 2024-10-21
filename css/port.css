@@ -1,0 +1,30 @@
+.about-sec{
+    padding: 120px;
+}
+.about-wrapper{
+    background-color: antiquewhite;
+}
+
+.footer-bg{
+    padding: 150px 250px;    
+    background-color: rgb(215, 210, 203);
+}
+.contact-form input{
+    padding: 30px;
+}
+
+.btn-con{
+    background-color: orangered;
+    width: 150px;        
+}
+
+@media only screen and (max-width: 600px) {
+    /* Write Css here for mobile device */
+    .about-sec{
+        padding: 10px;
+    }
+
+    .footer-bg{
+        padding: 30px;    
+    }
+}
